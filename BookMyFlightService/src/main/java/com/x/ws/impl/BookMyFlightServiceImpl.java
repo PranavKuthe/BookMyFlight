@@ -20,7 +20,7 @@ import javax.jws.WebService;
 public class BookMyFlightServiceImpl implements BookMyFlightService {
 
 	private static final Logger logger = Logger
-			.getLogger(BookMyFlightServiceImpl.class);
+			.getLogger(BookMyFlightServiceImpl.class); 
 
 	@WebMethod(operationName = "BookFlight", action = "http://com.x.service/BookMyFlightService/BookFlight")
 	@WebResult(name = "ResponseFlight", targetNamespace = "http://com.x.service/ResponseFlight", partName = "parameters")

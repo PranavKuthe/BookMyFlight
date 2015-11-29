@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://com.x.service/ResponseFlight"
+ xmlns:tns="http://com.x.service/ResponseFlight" elementFormDefault="qualified" 
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ 
+<xsd:element name="ResponseFlight">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="flPathSug" type="xsd:string" /> 
+			<xsd:element name="errorMsg" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+</schema>

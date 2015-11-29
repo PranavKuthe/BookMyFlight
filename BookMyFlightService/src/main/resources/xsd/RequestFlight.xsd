@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://com.x.service/RequestFlight" 
+xmlns:tns="http://com.x.service/RequestFlight" elementFormDefault="qualified" 
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="RequestFlight">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="fromLoc" type="xsd:string" /> 
+			<xsd:element name="destLoc" type="xsd:string" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+</schema>
